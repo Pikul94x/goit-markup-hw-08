@@ -1,11 +1,11 @@
 :root {
     --main-font: font-family: 'Roboto', sans-serif;
-    --secondary-font: font-family: 'Raleway', sans-serif;
+    --secondary-font: font-family:'Raleway', sans-serif;
     --main-color: #2196F3;
 }
 
 body {
-    font-family: var(--main-font)
+font-family: var(--main-font);
 }
 
 /* ===== HEADER ===== */
@@ -19,7 +19,8 @@ body {
     letter-spacing: 0.03em;
 }
 .navigation-logo-color {
-    color: #2196F3;
+    color: var(--main-color);
+    
 }
 
 .navigation-list-link {
