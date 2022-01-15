@@ -149,7 +149,7 @@ color: #212121;
 /* ===== END OUR TEAM ===== */
 /* ===== FOOTER ===== */
 .navigation-logo-bottom {
-    font-family: var(--secondary-font)
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
@@ -167,20 +167,27 @@ color: #212121;
     rgba(47, 48, 58, 1);
 }
 
-.address-location-link {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.714;
-    letter-spacing: 0.03em;
-    color:rgba(255, 255, 255, 1);
-}
-
+.address-location-link, 
 .address-contact-link {
     font-weight: normal;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    color:rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-style: normal;
+    
+}
+
+.address-contact-link {
     color: rgba(255, 255, 255, 0.6);    
+}
+
+.address-contact-link:hover,
+.address-contact-link:focus,
+.address-location-link:hover,
+.address-location-link:focus {
+    color: var(--main-color);
 }
 
 /* ===== END FOOTER ===== */
