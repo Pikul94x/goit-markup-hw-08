@@ -13,6 +13,10 @@ body {
     color:rgba(33, 33, 33, 1);
     text-decoration: none;
     font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
 }
 .navigation-logo-color {
     color: #2196F3;
@@ -83,3 +87,100 @@ background-color: var(--main-color)
     cursor: pointer
 }
 /* ===== END HERO ===== */
+
+/* ===== LOREM IPSUM ===== */
+.lorem-ipsum-header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+ .lorem-ipsum-description {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+ }   
+/* ===== END LOREM IPSUM ===== */
+
+/* ===== WHAT WE DO ===== */
+.what-we-do-header {
+
+font-weight: 700;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+/* ===== END WHAT WE DO ===== */
+
+/* ===== OUR TEAM ===== */
+.our-team-header {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+}
+
+.our-team-worker {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.job-position {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.187;
+    letter-spacing: 0.03em;
+    color: rgba(117, 117, 117, 1);
+}
+/* ===== END OUR TEAM ===== */
+/* ===== FOOTER ===== */
+.navigation-logo-bottom {
+    font-family: var(--secondary-font)
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.navigation-logo-color-bottom {
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer {
+    background-color: 
+    rgba(47, 48, 58, 1);
+}
+
+.address-location-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color:rgba(255, 255, 255, 1);
+}
+
+.address-contact-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);    
+}
+
+/* ===== END FOOTER ===== */
