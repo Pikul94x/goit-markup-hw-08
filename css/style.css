@@ -1,0 +1,85 @@
+:root {
+    --main-font: font-family: 'Roboto', sans-serif;
+    --secondary-font: font-family: 'Raleway', sans-serif;
+    --main-color: #2196F3;
+}
+
+body {
+    font-family: var(--main-font)
+}
+
+/* ===== HEADER ===== */
+.navigation-logo {
+    color:rgba(33, 33, 33, 1);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+}
+.navigation-logo-color {
+    color: #2196F3;
+}
+
+.navigation-list-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.172;
+    letter-spacing: 0.02em;
+    color: rgba(33, 33, 33, 1);
+    
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-email:hover,
+.address-email:focus,
+.address-phone-number:hover,
+.address-phone-number:focus
+ {
+    color: var(--main-color)
+}
+
+.address-email,
+.address-phone-number {
+    font-style: normal;
+    text-decoration: none;
+    color:rgba(117, 117, 117, 1);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.172;
+    letter-spacing: 0.02em;
+}
+
+
+/* ===== END HEADER ===== */
+
+/* ===== HERO ===== */
+.hero {
+    background-color: #2F303A;
+}
+
+.main-header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.modal-button {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: var(--main-color)
+}
+
+.modal-button:hover,
+.modal-button:focus {
+    cursor: pointer
+}
+/* ===== END HERO ===== */
