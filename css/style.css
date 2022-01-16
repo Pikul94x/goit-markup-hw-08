@@ -1,6 +1,7 @@
+
 :root {
-    --main-font: font-family: 'Roboto', sans-serif;
-    --secondary-font: font-family:'Raleway', sans-serif;
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
     --main-color: #2196F3;
 }
 
@@ -8,12 +9,15 @@ body {
 font-family: var(--main-font);
 }
 
+/* ===== COMPONENTS ===== */
+/* ===== END COMPONENTS ===== */
+
 /* ===== HEADER ===== */
 .navigation-logo {
     color:rgba(33, 33, 33, 1);
     text-decoration: none;
     font-family: var(--secondary-font);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
@@ -30,6 +34,10 @@ font-family: var(--main-font);
     letter-spacing: 0.02em;
     color: rgba(33, 33, 33, 1);
     
+}
+
+a.current {
+    color:var(--main-color);
 }
 
 .navigation-list-link:hover,
@@ -100,7 +108,7 @@ background-color: var(--main-color)
 }
 
  .lorem-ipsum-description {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -141,7 +149,7 @@ color: #212121;
 }
 
 .job-position {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.187;
     letter-spacing: 0.03em;
@@ -170,7 +178,7 @@ color: #212121;
 
 .address-location-link, 
 .address-contact-link {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -192,3 +200,39 @@ color: #212121;
 }
 
 /* ===== END FOOTER ===== */
+
+/* ===== PORTFOLIO MAIN ===== */
+.button-list-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+    color: #212121;
+    
+}
+
+.buttons:hover,
+.buttons:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+.application-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.application-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* ===== END PORTFOLIO MAIN ===== */
+
+
