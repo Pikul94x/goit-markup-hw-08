@@ -16,6 +16,10 @@ color:var(--text-main-color);
 a {
 text-decoration: none;
 }
+
+li {
+    list-style: none;
+}
 /* ===== END COMPONENTS ===== */
 
 /* ===== HEADER ===== */
