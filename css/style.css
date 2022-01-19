@@ -13,9 +13,15 @@ color:var(--text-main-color);
 }
 
 /* ===== COMPONENTS ===== */
+a {
+text-decoration: none;
+}
 /* ===== END COMPONENTS ===== */
 
 /* ===== HEADER ===== */
+
+
+
 .navigation-logo {
     color:rgba(33, 33, 33, 1);
     text-decoration: none;
@@ -131,6 +137,10 @@ letter-spacing: 0.03em;
 /* ===== END WHAT WE DO ===== */
 
 /* ===== OUR TEAM ===== */
+.our-team {
+    background-color: rgba(245, 244, 250, 1);
+}
+
 .our-team-header {
 font-weight: 700;
 font-size: 36px;
