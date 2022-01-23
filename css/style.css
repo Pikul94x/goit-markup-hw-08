@@ -12,19 +12,84 @@ color:var(--text-main-color);
 
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    align-items: center;
+    margin: 0 auto;
+}
 /* ===== COMPONENTS ===== */
-a {
+/* a {
 text-decoration: none;
 }
 
 li {
     list-style: none;
-}
+} */
 /* ===== END COMPONENTS ===== */
 
 /* ===== HEADER ===== */
 
+.header .container{
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 25px
+    
+    
+}
 
+.navigation { 
+    display: flex;
+    
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list-item:not(:last-child){
+    margin-right: 46px;
+
+}
+.navigation-logo {
+    margin-right: 93px;
+}
+.header .address-email {
+    margin-left: auto;
+    margin-right: 50px;
+}
 
 .navigation-logo {
     color:rgba(33, 33, 33, 1);
@@ -78,8 +143,16 @@ a.current {
 /* ===== END HEADER ===== */
 
 /* ===== HERO ===== */
+.container .main-header {
+    padding: 200px 0 280px 0;
+    align-items: center;
+    display: flex;
+    
+}
 .hero {
     background-color: #2F303A;
+    display: flex;
+    
 }
 
 .main-header {
@@ -90,6 +163,8 @@ a.current {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+
+    
 }
 
 .modal-button {
@@ -101,7 +176,9 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-background-color: var(--main-color)
+background-color: var(--main-color);
+
+
 }
 
 .modal-button:hover,
@@ -111,6 +188,14 @@ background-color: var(--main-color)
 /* ===== END HERO ===== */
 
 /* ===== LOREM IPSUM ===== */
+.container .lorem-ipsum-list {
+    display: flex;
+    margin: 94px 0px;
+} 
+
+.lorem-ipsum-item:not(:last-child) {
+    margin-right: 30px;
+}
 .lorem-ipsum-header {
     font-weight: 700;
     font-size: 14px;
@@ -130,6 +215,12 @@ background-color: var(--main-color)
 /* ===== END LOREM IPSUM ===== */
 
 /* ===== WHAT WE DO ===== */
+.container .what-we-do-img-list {
+    display: flex;    
+}
+.what-we-do-img {
+    margin-right: 30px;
+}
 .what-we-do-header {
 
 font-weight: 700;
@@ -137,6 +228,8 @@ font-size: 36px;
 line-height: 1.167;
 text-align: center;
 letter-spacing: 0.03em;
+margin-top: 94px;
+margin-bottom: 50px;
 }
 /* ===== END WHAT WE DO ===== */
 
