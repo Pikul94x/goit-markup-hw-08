@@ -89,6 +89,8 @@ img {
     margin-right: 50px;
 }
 
+
+
 .navigation-logo {
     color:rgba(33, 33, 33, 1);
     text-decoration: none;
@@ -240,6 +242,13 @@ margin-bottom: 50px;
 /* ===== END WHAT WE DO ===== */
 
 /* ===== OUR TEAM ===== */
+.figure-our-team {
+    margin-left: 0px;
+    display: block;
+    height: 368px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
 .our-team-header {
     padding-top: 94px;
     padding-bottom: 50px;
@@ -254,15 +263,11 @@ margin-bottom: 50px;
     padding-right: 30px;
 
 }
-
-.our-team-item {
-    display: flex;
-    max-width: 270px;
-    height: 260px;
-}
 .our-team {
     background-color: rgba(245, 244, 250, 1);
     text-align: center;
+    height: 648px;
+    
 }
 
 .our-team-header {
@@ -297,6 +302,10 @@ letter-spacing: 0.03em;
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
+    padding-top: 60px;
+    padding-bottom: 16px;
+    display: flex;
+
 }
 
 .navigation-logo-color-bottom {
@@ -306,6 +315,9 @@ letter-spacing: 0.03em;
 .footer {
     background-color: 
     rgba(47, 48, 58, 1);
+    margin-top: 94px;
+    height: 252px;
+    
 }
 
 .address-location-link, 
@@ -334,11 +346,50 @@ letter-spacing: 0.03em;
 /* ===== END FOOTER ===== */
 
 /* ===== PORTFOLIO MAIN ===== */
+.apps-list-item:not(:nth-child(3n+3)) {
+    display: flex;
+    margin-right: 30px;
+}
+.header {
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
+.container .button-list-link {
+display: flex;
+padding-top: 85px;
+} 
+.button-list-link {
+    padding-left: 356px;
+    padding-right: 303px;
+    padding-bottom: 34px;
+    
+}
+.button-list-item:not(:last-child) {
+    display: flex;
+    padding-right: 8px;
+    text-align: center;
+    
+}
+.buttons {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+
+    
+}
+.figure-apps {
+    margin-left: 0;
+    border: 1px solid rgba(238, 238, 238, 1);
+    margin-right: 0px;
+    
+}
+
 .button-list-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em;  
+    
+ 
 }
 
 .buttons:hover,
@@ -346,6 +397,18 @@ letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 1);
     background-color: var(--main-color);
     cursor: pointer;
+}
+
+.apps-list-link {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.apps-list-item {
+    width: calc((100% - 30px) / 3);
+    width: 370px;
+
 }
 
 .application-name {
@@ -363,5 +426,6 @@ letter-spacing: 0.03em;
     color: #757575;
 }
 /* ===== END PORTFOLIO MAIN ===== */
+
 
 
