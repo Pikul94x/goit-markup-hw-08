@@ -184,7 +184,9 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 background-color: var(--main-color);
-margin: 0 auto;
+/* margin: 0 auto; */
+margin-left: auto;
+margin-right: auto;
 border-radius: 4px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 position: absolute;
@@ -389,9 +391,11 @@ padding-top: 85px;
 
 .figure-apps {
     margin-left: 0;
-    border: 1px solid rgba(238, 238, 238, 1);
     margin-right: 0px;
     
+}
+.figcaption-apps {
+border: 1px solid rgba(238, 238, 238, 1);
 }
 
 .apps-list-item:nth-child(n + 7) {
