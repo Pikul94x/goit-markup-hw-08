@@ -172,17 +172,18 @@ a.current {
     
 }
 
-.container .modal-button {
+.modal-button {
 font-weight: 700;
 font-size: 16px;
 line-height: 1.875;
-display: inline-block;
+display: block;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 background-color: var(--main-color);
 margin: 0;
+border-radius: 4px;
 
 
 
@@ -249,7 +250,7 @@ margin-bottom: 50px;
 }
 .figure-our-team {
     margin-left: 0px;
-    display: inline-block;
+    display: block;
     height: 368px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -265,17 +266,16 @@ margin-bottom: 50px;
     display: flex;
 }
 
-.our-team-img:not(:last-child) {
-    padding-right: 30px;
 
-}
+/* .our-team-img:not(:last-child) {
+    padding-right: 30px; */
 
-/* OSTATNIA ZMIANA Z IMG  */
+
 .our-team-img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+    margin-right: auto;
 }
+
+
 .our-team {
     background-color: rgba(245, 244, 250, 1);
     text-align: center;
@@ -328,7 +328,6 @@ letter-spacing: 0.03em;
 .footer {
     background-color: 
     rgba(47, 48, 58, 1);
-    margin-top: 94px;
     height: 252px;
     
 }
@@ -383,17 +382,17 @@ padding-top: 85px;
     text-align: center;
     
 }
-.buttons {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+ 
 
-    
-}
 .figure-apps {
     margin-left: 0;
     border: 1px solid rgba(238, 238, 238, 1);
     margin-right: 0px;
     
+}
+
+.apps-list-item:nth-child(n + 7) {
+    margin-bottom: 94px;
 }
 
 .button-list-item {
@@ -410,6 +409,9 @@ padding-top: 85px;
     color: rgba(255, 255, 255, 1);
     background-color: var(--main-color);
     cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    
 }
 
 .apps-list-link {
@@ -428,7 +430,8 @@ padding-top: 85px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em;    
+    letter-spacing: 0.06em;
+    padding: 20px 0px 4px 24px;    
 }
 
 .application-description {
@@ -437,6 +440,18 @@ padding-top: 85px;
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
+    padding: 4px 0px 20px 24px;
+
+}
+
+.buttons {
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px 22px;
+    border: none;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    margin-right: 8px;
 }
 /* ===== END PORTFOLIO MAIN ===== */
 
