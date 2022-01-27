@@ -140,9 +140,16 @@ a.current {
 /* ===== END HEADER ===== */
 
 /* ===== HERO ===== */
-.container .main-header {
-    padding-top: 200px;
+
+main > .hero { 
+display: flex;
+align-items: center;
 }
+
+
+/* .container .main-header {
+    padding-top: 200px;
+} */
 
 .hero {
     background-color: #2F303A;
