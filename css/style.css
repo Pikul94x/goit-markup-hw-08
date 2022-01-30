@@ -49,6 +49,11 @@ img {
     align-items: center;
     margin: 0 auto;
 }
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 /* ===== COMPONENTS ===== */
 
 /* ===== END COMPONENTS ===== */
@@ -146,14 +151,20 @@ display: flex;
 align-items: center;
 }
 
-
-/* .container .main-header {
-    padding-top: 200px;
-} */
-
 .hero {
-    background-color: #2F303A;
-    height: 600px;
+    
+    height: 900px;
+    background-image: 
+    linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url("/images/hero-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(47, 48, 58, 1)
+
+
 }
 
 .main-header {
@@ -255,7 +266,9 @@ margin-bottom: 50px;
     height: 368px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    padding: 0px;
+    padding-bottom: 410px;
+    margin-right: px;
+
 }
 .our-team-header {
     padding-top: 94px;
@@ -301,7 +314,46 @@ letter-spacing: 0.03em;
     line-height: 1.187;
     letter-spacing: 0.03em;
     color: rgba(117, 117, 117, 1);
+    margin-bottom: 16px;
 }
+
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+/* ===== WYPELNIA TYLKO PO NAJECHANIU NA IKONKE ===== */
+.social-icon:hover {
+    fill: white;
+}
+
+.social-list-link {
+    display: flex;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    fill: white;
+    background-color: rgba(33, 150, 243, 1);
+}
+
+/* .social-icon:hover,
+.social-icon:focus {
+color: red; */
+
+
+
 /* ===== END OUR TEAM ===== */
 /* ===== FOOTER ===== */
 .navigation-logo-bottom {
