@@ -215,12 +215,23 @@ justify-content: center;
 .lorem-ipsum-item:not(:last-child) {
     margin-right: 30px;
 }
+
+.lorem-ipsum-icon-container {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    
+}
+
+
 .lorem-ipsum-header {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-top: 30px;
 }
 
  .lorem-ipsum-description {
@@ -263,11 +274,11 @@ margin-bottom: 50px;
     width: 270px;
     margin-left: 0px;
     display: block;
-    height: 368px;
+    /* height: 368px; */
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    padding-bottom: 410px;
-    margin-right: px;
+    padding-bottom: 4px;
+    /* margin-right: px; */
 
 }
 .our-team-header {
@@ -320,19 +331,15 @@ letter-spacing: 0.03em;
 .social-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-.social-icon {
-    width: 20px;
-    height: 20px;
-    fill: #AFB1B8;
 }
 
-/* ===== WYPELNIA TYLKO PO NAJECHANIU NA IKONKE ===== */
-.social-icon:hover {
-    fill: white;
+.social-list-item:not(:last-child) {
+    margin-right: 10px; 
 }
 
+.social-list-item {
+    padding-left: 12px;
+}
 .social-list-link {
     display: flex;
     border-radius: 50%;
@@ -340,21 +347,57 @@ letter-spacing: 0.03em;
     height: 44px;
     align-items: center;
     justify-content: center;
+    fill: #afb1b8;
+
 }
 
 .social-list-link:hover,
-.social-list-link:focus {
+.social-list-link:focus,
+.social-icon:hover,
+.social-icon:focus {
     fill: white;
-    background-color: rgba(33, 150, 243, 1);
+    background-color: var(--main-color);
 }
 
-/* .social-icon:hover,
-.social-icon:focus {
-color: red; */
-
-
-
+.figcaption-our-team {
+    display: block;
+    background-color: #FFFFFF;
+}
 /* ===== END OUR TEAM ===== */
+/* ===== OUR CUSTOMERS ===== */
+.our-customers-list {
+    display: flex;
+}
+
+.our-customers-item {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.our-customers-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-customers-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.our-customers-link {
+    display: flex;
+    fill: #afb1b8;
+}
+
+.our-customers-link:focus,
+.our-customers-link:hover {
+    fill: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+/* ===== END OUR CUSTOMERS ===== */
 /* ===== FOOTER ===== */
 .navigation-logo-bottom {
     font-family: var(--secondary-font);
@@ -404,6 +447,65 @@ color: red; */
     color: var(--main-color);
 }
 
+.footer-content {
+    display: flex;
+}
+
+/* ++++ RIGHT SITE ++++ */
+.join-us-header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-top: 72px;
+}
+
+.join-us-social-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.join-us-social-list-link {
+    display: flex;
+}
+
+
+.footer-content {
+    display: flex;
+}
+
+.footer-right-side {
+    margin-left: 70px;
+
+}
+.join-us-social-list-link {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-us-social-icon {
+    fill: rgba(255, 255, 255, 1);
+}
+
+.join-us-social-list-link:hover,
+.join-us-social-list-link:focus {
+    background-color: var(--main-color);
+}
+.join-us-social-item:not(:last-child) {
+    margin-right: 10px;
+}
+/* .join-us-social-item:not(:last-child) {
+    margin-right: 34px; */
+
+/* +++++ END RIGHT SITE +++++ */
 /* ===== END FOOTER ===== */
 
 /* ===== PORTFOLIO MAIN ===== */
@@ -411,6 +513,12 @@ color: red; */
     display: flex;
     margin-right: 30px;
 }
+.figure-apps:hover,
+.figure-apps:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+    
+
 .header {
     border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
