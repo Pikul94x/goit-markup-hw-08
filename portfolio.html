@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -24,23 +25,39 @@
 
                 <ul class="navigation-list list">
                     <li class="navigation-list-item">
-                        <a class="navigation-list-link link" href="index.html">Agencja</a>
+                        <a class="navigation-list-link current link" href="index.html">Agencja</a>
                     </li>
                     <li class="navigation-list-item">
-                        <a class="navigation-list-link link current" href="portfolio.html">Portfolio</a>
+                        <a class="navigation-list-link link current link" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="navigation-list-item">
                         <a class="navigation-list-link link" href="#">Kontakt</a>
                     </li>
                 </ul>
             </nav>
-            <a class="address-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="address-phone-number link" href="tel:+48111111111">+48&nbsp;111&nbsp;111&nbsp;111</a>
-        </div>
+            <addres class="address-header">
+                <ul class="address-header-contact-list list">
+                    <li class="address-header-list-item">
+                        <a class="address-email link" href="mailto:info@devstudio.com">
+                            <svg class="envelope-icon" width="16" height="12">
+                                <use href="/images/symbol-defs.svg#icon-envelope"></use>
+                            </svg>info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="address-header-list-item">
+                        <a class="address-phone-number link" href="tel:+48111111111">
+                            <svg class="icon-smartphone" width="10" height="16">
+                                <use href="/images/symbol-defs.svg#icon-smartphone"></use>
+                            </svg>+48&nbsp;111&nbsp;111&nbsp;111
 
+                        </a>
+                    </li>
+                </ul>
+        </div>
+        </addres>
     </header>
     <main>
-        <section>
+        <section class="section">
             <div class="container">
             <div class="button-list">
                 <ul class="button-list-link list">
