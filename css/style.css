@@ -397,10 +397,10 @@ letter-spacing: 0.03em;
     display: flex;
 }
 
-.our-customers-item {
+/* .our-customers-item {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-}
+} */
 
 .our-customers-item:not(:last-child) {
     margin-right: 30px;
@@ -418,15 +418,25 @@ letter-spacing: 0.03em;
 .our-customers-link {
     display: flex;
     fill: #afb1b8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
 
 .our-customers-link:focus,
 .our-customers-link:hover {
+/* .our-customers-icon:focus,
+.our-customers-icon:hover { */
     fill: var(--main-color);
     border: 1px solid var(--main-color);
+    border-radius: 4px;
+    
 }
+
+
 /* ===== END OUR CUSTOMERS ===== */
 /* ===== FOOTER ===== */
+
+
 .navigation-logo-bottom {
     font-family: var(--secondary-font);
     font-weight: 700;
