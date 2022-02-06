@@ -148,6 +148,8 @@ a.current {
     font-size: 14px;
     line-height: 1.172;
     letter-spacing: 0.02em;
+    align-items: center;
+    display: flex;
 }
 
 /* ===== END HEADER ===== */
