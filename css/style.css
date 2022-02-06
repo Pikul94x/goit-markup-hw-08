@@ -212,6 +212,9 @@ justify-content: center;
 /* ===== END HERO ===== */
 
 /* ===== LOREM IPSUM ===== */
+.lorem-ipsum {
+    padding-top: 94px;
+}
 .container .lorem-ipsum-list {
     display: flex;
 } 
