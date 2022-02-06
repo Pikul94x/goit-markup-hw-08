@@ -212,9 +212,6 @@ justify-content: center;
 /* ===== END HERO ===== */
 
 /* ===== LOREM IPSUM ===== */
-.lorem-ipsum {
-    padding-top: 94px;
-}
 .container .lorem-ipsum-list {
     display: flex;
 } 
@@ -257,6 +254,10 @@ justify-content: center;
     letter-spacing: 0.03em;
     color: #757575;
  }   
+
+ .lorem-ipsum {
+     padding-top: 94px;
+ }
 /* ===== END LOREM IPSUM ===== */
 
 /* ===== WHAT WE DO ===== */
