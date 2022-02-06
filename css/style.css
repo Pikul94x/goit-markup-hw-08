@@ -223,7 +223,6 @@ justify-content: center;
 /* ===== LOREM IPSUM ===== */
 .container .lorem-ipsum-list {
     display: flex;
-    margin: 94px 0px;
 } 
 
 .lorem-ipsum-item:not(:last-child) {
@@ -286,7 +285,6 @@ font-size: 36px;
 line-height: 1.167;
 text-align: center;
 letter-spacing: 0.03em;
-margin-top: 94px;
 margin-bottom: 50px;
 }
 /* ===== END WHAT WE DO ===== */
@@ -301,11 +299,11 @@ margin-bottom: 50px;
     width: 270px;
     margin-left: 0px;
     display: inline-block;
-    /* height: 368px; */
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     padding-bottom: 4px;
-    /* margin-right: px; */
+    background-color: #FFFFFF;
+    margin-right: 30px;
 
 }
 .our-team-header {
@@ -318,16 +316,9 @@ margin-bottom: 50px;
     display: flex;
 }
 
-
-/* === ZMIANA SZEROKOSCI ZDJ === */
-.our-team-item {
-    max-width: 300px;
-}
-
 .our-team {
     background-color: rgba(245, 244, 250, 1);
     text-align: center;
-    /* height: 648px; */
     
 }
 
@@ -370,9 +361,6 @@ letter-spacing: 0.03em;
     margin-right: 10px; 
 }
 
-/* .social-list-item {
-    padding-left: 12px;
-} */
 .social-list-link {
     display: flex;
     border-radius: 50%;
@@ -393,8 +381,8 @@ letter-spacing: 0.03em;
 }
 
 .figcaption-our-team {
-    display: block;
-    background-color: #FFFFFF;
+    display: inline;
+    /* background-color: #FFFFFF; */
     /* margin-bottom: 94px; */
 }
 /* ===== END OUR TEAM ===== */
