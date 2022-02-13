@@ -59,7 +59,7 @@
     <section class="hero section">
       <div class="container">
       <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <button class="modal-button" type="button">Zamów usługę</button>
+      <button class="modal-button" type="button" data-modal-open>Zamów usługę</button>
       </div>
     </section>
     <section class="lorem-ipsum">
@@ -404,12 +404,14 @@
       </div>
     </div>  
   </footer>
-  <div class="backdrop is-hidden"> data-modal>
+  <div class="backdrop is-hidden"data-modal>
     <div class="modal">
-      <button type="button" class="close-bnt"> data-modal-close></button>
+      <button type="button" class="close-bnt" data-modal-close>X</button>
+      <!-- <svg class="close-bnt">
+        <use href="/images/for sprite/close-black-18dp-2-1.svg" width="20px" height="20px"></use>
+      </svg> -->
     </div>
   </div>
-
   <script src="./js/modal.js"></script>
 </body>
 </html>
