@@ -419,7 +419,38 @@
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button class="close-bnt" data-modal-close>X</button>
-      <h3>Zostaw swoje dane w formularzu poniżej</h3>
+      <h2 class="modal__from-header">Zostaw swoje dane w formularzu poniżej</h2>
+      <form action="#" class="modal-form">
+        <label class="modal-form-field">
+          Imie
+          <span class="modal-form-input-wrapper">
+            <input type="text" name="user_name" class="modal-form-input">
+          </span>
+          
+        </label>
+        <label class="modal-form-field">
+          Telefon
+          <span class="modal-form-input-wrapper">
+            <input type="tel" class="modal-form-input">
+          </span>
+        </label>
+        <label  class="modal-form-field">
+          Email
+          <span class="modal-form-input-wrapper">
+            <input type="email" class="modal-form-input">
+          </span>
+        </label>
+        <label class="modal-form-field">
+          Komentarz
+          <span class="modal-form-input-wrapper">
+          <textarea class="modal-form-message" cols="30" rows="10" name="user_message" placeholder="Wprowadź tekst"></textarea>
+          </span>
+        </label>
+        <input type="checkbox" class="modal-form-policy" name="user_policy" value="accept-policy">
+        <label class="modal-form-policy-text">Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności.</a>
+        </label> 
+      </form>
+    
 
       <!-- <svg class="icon-close" width="30px" height="30px">
         <use href="images/symbol-defs.svg#icon-close-black-18dp-2-1-1" width="30px" height="30px"></use>
