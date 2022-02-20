@@ -622,7 +622,8 @@ letter-spacing: 0.03em;
 
 }
 
-.footer-email-input:hover {
+.footer-email-input:focus {
+    outline: none;
     border: 1px solid var(--main-color);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -915,13 +916,15 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 16px;
     border: 1px solid #000;
     border-radius: 4px; 
+    
 
 }
 
 .modal-form-policy:checked + .modal-form-policy-text::before {
     background-color: var(--main-font);
     border: none;
-    background-image: url(./images/symbol-defs.svg#icon-Vector);
+    background-image: url(../images/symbol-defs.svg);
+    background-color: var(--main-color)
 }
 
 
