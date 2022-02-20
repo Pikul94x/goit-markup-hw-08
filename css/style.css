@@ -542,6 +542,7 @@ letter-spacing: 0.03em;
 
 .footer-content {
     display: flex;
+    justify-content: space-between;
 }
 
 /* ++++ MID SIDE ++++ */
@@ -566,14 +567,6 @@ letter-spacing: 0.03em;
     display: flex;
 }
 
-
-.footer-content {
-    display: flex;
-}
-
-.footer-mid-side {
-    margin-left: 70px;
-}
 
 .join-us-social-list-link {
     background-color: rgba(255, 255, 255, 0.1);
@@ -604,7 +597,6 @@ letter-spacing: 0.03em;
 
 /* +++++ RIGHT SITE +++++ */
 .footer-right-side {
-    margin-left: 76px;
     margin-top: 29px;
 }
 
@@ -628,6 +620,12 @@ letter-spacing: 0.03em;
     background-color: #2F303A;
     padding-left: 16px;
 
+}
+
+.footer-email-input:hover {
+    border: 1px solid var(--main-color);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .footer-subcribe-us-button {
