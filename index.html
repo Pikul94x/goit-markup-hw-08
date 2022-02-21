@@ -404,15 +404,11 @@
       </div>
       <div class="footer-right-side">
         <form>
-        <p class="footer-subscribe-us">Zapisz się do newslettera</p>
-        <!-- <label for="user_email">Zapisz się do newslettera</label>
-        <input type="email" name="email" id="user_email" /> -->
-        <label>
+        <label class="footer-label" for="email-newsletter">Zapisz się do newslettera</label>
           <div class="newsletter">
-          <input class="footer-email-input" type="email" name="email" placeholder="E-mail" />
-        </label>
-          <button class="newsletter-btn-a">
-            <input class="newsletter-bnt" type="submit" value="Zapisz się">
+          <input class="footer-email-input" id="email-newsletter" type="email" name="email"  placeholder="E-mail" required />
+          <button class="newsletter-btn-a">Zapisz się
+            <!-- <input class="newsletter-bnt" type="submit" value="Zapisz się"> -->
             <svg class="newsletter-icon" width="24px" height="24px">
               <use href="./images/sprite.svg#icon-icon-send" width="24px" height="24px"></use>
             </svg>
@@ -428,29 +424,29 @@
       <button class="close-bnt" data-modal-close>X</button>
       <h2 class="modal__form-header">Zostaw swoje dane w formularzu poniżej</h2>
       <form action="#" class="modal-form">
-        <label class="modal-form-field">
+        <label class="modal-form-field" for="imie">
           Imie
           <span class="modal-form-input-wrapper">
-            <input type="text" name="user_name" class="modal-form-input">
+            <input type="text" id="imie" name="user_name" class="modal-form-input" required>
             <svg class="modal-form-icon" width="18px" height="18px">
               <use href="./images/sprite.svg#icon-person-black-18dp-1" width="18px" height="18px"></use>
             </svg>
           </span>
           
         </label>
-        <label class="modal-form-field">
+        <label class="modal-form-field" for="tel">
           Telefon
           <span class="modal-form-input-wrapper">
-            <input type="tel" class="modal-form-input">
+            <input type="tel" class="modal-form-input" id="tel" required name="tel">
             <svg class="modal-form-icon" width="18px" height="18px">
               <use href="./images/sprite.svg#icon-phone-black-18dp-1" width="18px" height="18px"></use>
             </svg>
           </span>
         </label>
-        <label  class="modal-form-field">
+        <label  class="modal-form-field" for="email">
           Email
           <span class="modal-form-input-wrapper">
-            <input type="email" class="modal-form-input">
+            <input type="email" class="modal-form-input" required name="email" id="email">
             <svg class="modal-form-icon" width="18px" height="18px">
               <use href="./images/sprite.svg#icon-email-black-18dp-1" width="18px" height="18px"></use>
             </svg>
@@ -468,7 +464,7 @@
         <label for="user-policy" class="modal-form-policy-text">Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę
             Prywatności.</a>
         </label> 
-        <button type="subbmit" class="modal-button">Wyślij</button>
+        <button type="submit" class="modal-button">Wyślij</button>
       </form>
     </div>
   </div>
