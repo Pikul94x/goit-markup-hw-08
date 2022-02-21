@@ -455,9 +455,12 @@
           <textarea class="modal-form-message" name="user_message" placeholder="Wprowadź tekst"></textarea>
           </span>
         </label>
-        <label class="modal-form-policy-text">Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę
+        </form>
+        <form class="modal-form" action="#" method="post">
+        <input type="checkbox" id="user-policy" class="modal-form-policy visually-hidden" name="user_policy" value="accept-policy">
+        <label for="user-policy" class="modal-form-policy-text">Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę
             Prywatności.</a>
-        <input type="checkbox" class="modal-form-policy" name="user_policy" value="accept-policy">
+        <!-- <input type="checkbox" class="modal-form-policy" name="user_policy" value="accept-policy"> -->
         <!-- <label class="modal-form-policy-text">Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności.</a> -->
         </label> 
       </form>

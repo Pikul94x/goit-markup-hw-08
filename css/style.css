@@ -911,20 +911,33 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-form-policy-text::before {
     content: "";
-    display: block;
+    display: inline-block;
     height: 16px;
     width: 16px;
-    border: 1px solid #000;
+    border: 2px solid #000;
     border-radius: 4px; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 
 }
 
 .modal-form-policy:checked + .modal-form-policy-text::before {
-    background-color: var(--main-font);
     border: none;
-    background-image: url(../images/symbol-defs.svg);
-    background-color: var(--main-color)
+    background-color: var(--main-color);
+    background-image: url(../images/Vector.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px 1px 1px 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
 }
 
 
