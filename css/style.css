@@ -946,9 +946,9 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #757575;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .modal-form-policy-text a {
