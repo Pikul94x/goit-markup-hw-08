@@ -940,6 +940,25 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     overflow: hidden;
 }
 
+.modal-form-policy-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.modal-form-policy-text a {
+    color: var(--main-color)
+}
+
+/* .modal-form-checkbox {
+
+} */
+
 
 /* ===== END BACKDROP ===== */
 
