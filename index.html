@@ -423,11 +423,11 @@
     <div class="modal">
       <button class="close-bnt" data-modal-close>X</button>
       <h2 class="modal__form-header">Zostaw swoje dane w formularzu poniżej</h2>
-      <form action="#" class="modal-form">
+      <form class="modal-form">
         <label class="modal-form-field" for="imie">
           Imie
           <span class="modal-form-input-wrapper">
-            <input type="text" id="imie" name="user_name" class="modal-form-input" required>
+            <input type="text" id="imie" name="user-name" class="modal-form-input" required minlength="3"/>
             <svg class="modal-form-icon" width="18px" height="18px">
               <use href="./images/sprite.svg#icon-person-black-18dp-1" width="18px" height="18px"></use>
             </svg>
@@ -437,7 +437,7 @@
         <label class="modal-form-field" for="tel">
           Telefon
           <span class="modal-form-input-wrapper">
-            <input type="tel" class="modal-form-input" id="tel" required name="tel">
+            <input type="tel" class="modal-form-input" id="tel" name="tel" required >
             <svg class="modal-form-icon" width="18px" height="18px">
               <use href="./images/sprite.svg#icon-phone-black-18dp-1" width="18px" height="18px"></use>
             </svg>
@@ -446,7 +446,7 @@
         <label  class="modal-form-field" for="email">
           Email
           <span class="modal-form-input-wrapper">
-            <input type="email" class="modal-form-input" required name="email" id="email">
+            <input type="email" class="modal-form-input" name="email" id="email" required >
             <svg class="modal-form-icon" width="18px" height="18px">
               <use href="./images/sprite.svg#icon-email-black-18dp-1" width="18px" height="18px"></use>
             </svg>
@@ -465,7 +465,7 @@
           <span class="policy-text">Oświadczam iż akceptuję</span> <a href="#">Regulamin</a><span class="policy-text">i </span><a href="#">Politykę
             Prywatności.</a>
         </label> 
-        <button type="submit" class="modal-button">Wyślij</button>
+        <button class="modal-button" type="submit">Wyślij</button>
       </form>
     </div>
   </div>
