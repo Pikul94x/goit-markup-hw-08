@@ -347,13 +347,18 @@ justify-content: center;
 /* ===== END WHAT WE DO /// ABOUT ===== */
 
 /* ===== OUR TEAM ===== */
-.our-team-worker {
+.name {
     display: inline-block;
     align-items: center;
     margin-top: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187px;
+    letter-spacing: 0.03em;
 }
 
-.figure-our-team {
+
+.our-team__figure {
     width: 270px;
     margin-left: 0px;
     display: inline-block;
@@ -365,7 +370,7 @@ justify-content: center;
 }
 
 
-.our-team-list {
+.our-team__list {
     display: flex;
 }
 
@@ -377,12 +382,12 @@ justify-content: center;
 
 
 
-.our-team-worker {
+/* .our-team-worker {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.187px;
     letter-spacing: 0.03em;
-}
+} */
 
 .job-position {
     font-weight: 400;
