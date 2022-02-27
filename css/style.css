@@ -250,16 +250,16 @@ justify-content: center;
 }
 /* ===== END HERO ===== */
 
-/* ===== LOREM IPSUM ===== */
-.lorem-ipsum-list {
+/* ===== LOREM IPSUM  /// ATTRIBUTES ===== */
+.attributes__list {
     display: flex;
 } 
 
-.lorem-ipsum-item:not(:last-child) {
+.attributes__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.lorem-ipsum-icon-container {
+.attributes__icon-container {
     background-color: #F5F4FA;
     border-radius: 4px;
     width: 270px;
@@ -269,7 +269,7 @@ justify-content: center;
     align-items: center;   
 }
 
-.lorem-ipsum-icon {
+.attributes__icon {
     
     justify-content: center;
     align-items: center;
@@ -277,7 +277,7 @@ justify-content: center;
     height: 70px;
 }
 
-.lorem-ipsum-header {
+.attributes__header {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
@@ -286,7 +286,7 @@ justify-content: center;
     padding-top: 30px;
 }
 
- .lorem-ipsum-description {
+ .attributes__description {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
@@ -294,12 +294,12 @@ justify-content: center;
     color: #757575;
  }   
 
- .lorem-ipsum {
+ .attributes {
      padding-top: 94px;
  }
-/* ===== END LOREM IPSUM ===== */
+/* ===== END LOREM IPSUM /// ATTRIBUTES ===== */
 
-/* ===== WHAT WE DO ===== */
+/* ===== WHAT WE DO  /// ABOUT ===== */
 .what-we-do-img-list {
     display: flex;    
 }
@@ -342,7 +342,7 @@ letter-spacing: 0.03em;
 margin-bottom: 50px;
 }
 
-/* ===== END WHAT WE DO ===== */
+/* ===== END WHAT WE DO /// ABOUT ===== */
 
 /* ===== OUR TEAM ===== */
 .our-team-worker {
