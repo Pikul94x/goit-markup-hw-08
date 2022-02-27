@@ -65,10 +65,17 @@ img {
     margin-right: auto;
 }
 
-.header .container{
+/* .container{
     display: flex;
     height: 80px;
     justify-content: space-between;
+} */
+
+.conatiner__header {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+
 }
 
 .address-header-contact-list {
@@ -192,11 +199,6 @@ img {
 
 /* ===== HERO ===== */
 
-main > .hero { 
-display: flex;
-align-items: center;
-}
-
 .hero {
     background-image: 
     linear-gradient(
@@ -211,6 +213,8 @@ align-items: center;
     margin: 0 auto;
     height: 37.5rem;
     background-position: center center;
+    display: flex;
+    align-items: center;
 }
 
 .main-header {
@@ -224,7 +228,7 @@ align-items: center;
     text-align: center;
 }
 
-.modal-button {
+.btn {
 font-weight: 700;
 font-size: 16px;
 line-height: 1.875;
@@ -239,18 +243,25 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 width: 200px;
 height: 50px;
 border: 0;
-margin-top: 30px;
 justify-content: center;
 }
 
-.modal-button:hover,
-.modal-button:focus {
+.btn__topSpace {
+    margin-top: 30px;
+}
+
+.btn__beetweenSpace {
+    margin-left: 12px;
+}
+
+.btn:hover,
+.btn:focus {
     cursor: pointer
 }
 /* ===== END HERO ===== */
 
 /* ===== LOREM IPSUM ===== */
-.container .lorem-ipsum-list {
+.lorem-ipsum-list {
     display: flex;
 } 
 
@@ -299,7 +310,7 @@ justify-content: center;
 /* ===== END LOREM IPSUM ===== */
 
 /* ===== WHAT WE DO ===== */
-.container .what-we-do-img-list {
+.what-we-do-img-list {
     display: flex;    
 }
 
@@ -365,7 +376,7 @@ margin-bottom: 50px;
     padding-bottom: 50px;
 }
 
-.container .our-team-list {
+.our-team-list {
     display: flex;
 }
 
@@ -672,6 +683,10 @@ letter-spacing: 0.03em;
 /* ===== END FOOTER ===== */
 
 /* ===== PORTFOLIO MAIN ===== */
+
+
+/* DO POPRAWY  */
+
 .apps-list-box:hover .apps-list-popup {
     transform: translateY(0);
 
@@ -723,13 +738,11 @@ letter-spacing: 0.03em;
     border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
-.container .button-list-link {
-display: flex;
-} 
 
 .button-list-link {
     justify-content: center;
     padding-bottom: 54px;
+    display: flex;
 }
 
 .button-list-item:not(:last-child) {
@@ -973,7 +986,11 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     justify-content: center;
 }
 
-.modal-form-policy-text a {
+/* .modal-form-policy-text a {
+    color: var(--main-color)
+} */
+
+.policy-link {
     color: var(--main-color)
 }
 
