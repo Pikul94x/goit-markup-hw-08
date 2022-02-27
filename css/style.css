@@ -60,10 +60,10 @@ img {
 /* ===== HEADER ===== */
 
 
-.main-header {
+/* .main-header {
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 /* .container{
     display: flex;
@@ -213,7 +213,10 @@ img {
     color: #FFFFFF;
     width: 696px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .btn {
 font-weight: 700;
