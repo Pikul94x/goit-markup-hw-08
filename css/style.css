@@ -54,7 +54,45 @@ img {
     padding-bottom: 94px;
 }
 /* ===== COMPONENTS ===== */
+.second-header {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 50px;
+}
 
+.btn {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+display: flex;
+align-items: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: var(--main-color);
+margin: 0 auto;
+border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+width: 200px;
+height: 50px;
+border: 0;
+justify-content: center;
+}
+
+.btn__topSpace {
+    margin-top: 30px;
+}
+
+.btn__beetweenSpace {
+    margin-left: 12px;
+}
+
+.btn:hover,
+.btn:focus {
+    cursor: pointer
+}
 /* ===== END COMPONENTS ===== */
 
 /* ===== HEADER ===== */
@@ -218,36 +256,7 @@ img {
 }
 
 
-.btn {
-font-weight: 700;
-font-size: 16px;
-line-height: 1.875;
-display: flex;
-align-items: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
-background-color: var(--main-color);
-margin: 0 auto;
-border-radius: 4px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-width: 200px;
-height: 50px;
-border: 0;
-justify-content: center;
-}
 
-.btn__topSpace {
-    margin-top: 30px;
-}
-
-.btn__beetweenSpace {
-    margin-left: 12px;
-}
-
-.btn:hover,
-.btn:focus {
-    cursor: pointer
-}
 /* ===== END HERO ===== */
 
 /* ===== LOREM IPSUM  /// ATTRIBUTES ===== */
@@ -300,15 +309,15 @@ justify-content: center;
 /* ===== END LOREM IPSUM /// ATTRIBUTES ===== */
 
 /* ===== WHAT WE DO  /// ABOUT ===== */
-.what-we-do-img-list {
+.about__list {
     display: flex;    
 }
 
-.what-we-do-item {
+.about__item {
     position: relative;
 }
 
-.what-we-do-content-item-span {
+.about__item-span {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -326,21 +335,14 @@ justify-content: center;
     color: #FFFFFF;
 }
 
-.what-we-do-img {
+.about__img {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 30px;
 }
 
-.what-we-do-header {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.167;
-text-align: center;
-letter-spacing: 0.03em;
-margin-bottom: 50px;
-}
+
 
 /* ===== END WHAT WE DO /// ABOUT ===== */
 
@@ -362,9 +364,6 @@ margin-bottom: 50px;
     margin-right: 30px;
 }
 
-.our-team-header {
-    padding-bottom: 50px;
-}
 
 .our-team-list {
     display: flex;
@@ -376,13 +375,7 @@ margin-bottom: 50px;
     
 }
 
-.our-team-header {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.167;
-text-align: center;
-letter-spacing: 0.03em;
-}
+
 
 .our-team-worker {
     font-weight: 500;
@@ -448,14 +441,14 @@ letter-spacing: 0.03em;
     margin-right: 30px;
 }
 
-.our-customers-header {
+/* .our-customers-header {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.167;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
-}
+} */
 
 .our-customers-link {
     display: flex;
@@ -631,7 +624,7 @@ letter-spacing: 0.03em;
     
 }
 
-.newsletter-btn-a {
+/* .newsletter-btn-a {
     background-color: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -650,14 +643,14 @@ letter-spacing: 0.03em;
     justify-content: center;
     align-items: center;
     gap: 24px;
-}
+} */
 
 .newsletter {
     display: flex;
     padding-top: 20px;
 }
 
-.newsletter-bnt {
+/* .newsletter-bnt {
     background-color: transparent;
     border: none;
     font-weight: bold;
@@ -665,7 +658,7 @@ letter-spacing: 0.03em;
     line-height: 1.875;
     letter-spacing: 0.06em;
     color: #FFFFFF; 
-}
+} */
 
 
 /* +++++ END RIGHT SITE +++++ */
