@@ -107,11 +107,11 @@ img {
     margin-right: 46px;
 
 }
-.navigation-logo {
+.navigation__logo {
     margin-right: 93px;
 }
 
-.navigation-logo {
+.navigation__logo {
     color:rgba(33, 33, 33, 1);
     text-decoration: none;
     font-family: var(--secondary-font);
@@ -121,7 +121,7 @@ img {
     letter-spacing: 0.03em;
 }
 
-.navigation-logo-color {
+.navigation__accent {
     color: var(--main-color);
     
 }
