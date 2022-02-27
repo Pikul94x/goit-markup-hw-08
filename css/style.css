@@ -78,12 +78,12 @@ img {
 
 }
 
-.address-header-contact-list {
+.address__list {
     display: flex;
     align-items: center;
 }
 
-.address-header-list-item:not(:last-child) {
+.address__item:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -161,15 +161,15 @@ img {
 
 .navigation__link:hover,
 .navigation__link:focus,
-.address-email:hover,
-.address-email:focus,
-.address-phone-number:hover,
-.address-phone-number:focus {
+.address__email:hover,
+.address__email:focus,
+.address__phone-number:hover,
+.address__phone-number:focus {
     color: var(--main-color);
 }
 
-.address-email,
-.address-phone-number {
+.address__email,
+.address__phone-number {
     font-style: normal;
     text-decoration: none;
     color:rgba(117, 117, 117, 1);
