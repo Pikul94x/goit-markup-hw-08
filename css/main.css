@@ -201,18 +201,6 @@ img {
   transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-bnt {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  cursor: pointer;
-  background-color: #FFFFFF;
-}
-
 .modal__form-header {
   font-weight: 700;
   font-size: 20px;
@@ -321,6 +309,18 @@ img {
 
 .policy-text {
   margin: 0 5px;
+}
+
+.close-bnt {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #FFFFFF;
 }
 
 .conatiner__header {

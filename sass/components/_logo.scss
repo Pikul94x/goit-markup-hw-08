@@ -7,22 +7,25 @@
     line-height: 1.192;
     letter-spacing: 0.03em;
     margin-right: 93px;
-}
 
-.logo__accent--dark {
+    &__accent--dark {
     color: var(--main-color);
     
 }
 
 
 
-.logo__footer {
+    &__footer {
     color: #2196F3;
     padding-top: 60px;
     padding-bottom: 16px;
     display: flex;
 }
 
-.logo__accent--light {
+    &__accent--light {
     color: rgba(255, 255, 255, 1);
 }
+
+    
+}
+
