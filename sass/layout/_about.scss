@@ -1,12 +1,13 @@
-.about__list {
+.about {
+    content: "";
+    
+    &__list {
     display: flex;    
 }
-
-.about__item {
+    &__item {
     position: relative;
 }
-
-.about__item-span {
+    &__item-span {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -23,10 +24,17 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
-
-.about__img {
+    &__img {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 30px;
 }
+}
+
+
+
+
+
+
+

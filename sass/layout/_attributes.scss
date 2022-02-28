@@ -1,12 +1,10 @@
-.attributes__list {
-    display: flex;
-} 
+.attributes {
+    padding-top: 94px;
 
-.attributes__item:not(:last-child) {
-    margin-right: 30px;
+    &__list {
+     display: flex;
 }
-
-.attributes__icon-container {
+    &__icon-container {
     background-color: #F5F4FA;
     border-radius: 4px;
     width: 270px;
@@ -15,16 +13,14 @@
     justify-content: center;
     align-items: center;   
 }
-
-.attributes__icon {
+    &__icon {
     
     justify-content: center;
     align-items: center;
     width: 70px;
     height: 70px;
 }
-
-.attributes__header {
+    &__header {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
@@ -32,15 +28,28 @@
     text-transform: uppercase;
     padding-top: 30px;
 }
-
- .attributes__description {
+    &__description {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: #757575;
  }   
+    &__item:not(:last-child) {
+    margin-right: 30px;
+}
+}
 
- .attributes {
-     padding-top: 94px;
- }
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+ 

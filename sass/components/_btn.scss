@@ -14,17 +14,18 @@ width: 200px;
 height: 50px;
 border: 0;
 justify-content: center;
+    
     &:hover,
     &:focus {
     cursor: pointer
 }
 
 
-&.btn__send {
+    &.btn__send {
     margin-top: 30px;
 }
 
-&.btn__footer {
+    &.btn__footer {
     margin-left: 12px;
     gap: 24px;
 }
