@@ -1,11 +1,17 @@
-.address__list {
+.address {
+
+    &__list {
     display: flex;
     align-items: center;
 }
-
-.address__item:not(:last-child) {
+    &__item:not(:last-child) {
     margin-right: 30px;
 }
+}
+
+
+
+
 
 .envelope-icon,
 .icon-smartphone {
