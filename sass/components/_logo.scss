@@ -1,0 +1,28 @@
+.logo {
+    color:rgba(33, 33, 33, 1);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+}
+
+.logo__accent--dark {
+    color: var(--main-color);
+    
+}
+
+
+
+.logo__footer {
+    color: #2196F3;
+    padding-top: 60px;
+    padding-bottom: 16px;
+    display: flex;
+}
+
+.logo__accent--light {
+    color: rgba(255, 255, 255, 1);
+}

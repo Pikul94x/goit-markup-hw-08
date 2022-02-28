@@ -1,0 +1,32 @@
+.about__list {
+    display: flex;    
+}
+
+.about__item {
+    position: relative;
+}
+
+.about__item-span {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    width: 370px;
+    height: 70px; 
+    background: rgba(47, 48, 58, 0.8); 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.about__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
