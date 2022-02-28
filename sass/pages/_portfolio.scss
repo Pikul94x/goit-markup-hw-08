@@ -56,19 +56,26 @@
     color: #757575;
     padding: 4px 0px 20px 24px;
 }
-}
-
-
-
-.apps__item:not(:nth-child(3n+3)) {
+    &__item:not(:nth-child(3n+3)) {
     margin-right: 30px;
 }
-
-.apps__figure:hover,
-.apps__figure:focus {
+    &__figure:hover,
+    &__figure:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     
 }
+    &__box:hover &__popup {
+    transform: translateY(0);
+
+
+}
+}
+
+
+
+
+
+
 
 
  
@@ -123,8 +130,3 @@
 }
 }
 
-.apps__box:hover .apps__popup {
-    transform: translateY(0);
-
-
-}
