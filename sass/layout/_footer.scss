@@ -19,7 +19,7 @@
     color: #FFFFFF;
     padding-bottom: 20px;
 }
-    .footer__email-input {
+    &__email-input {
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-sizing: border-box;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -30,6 +30,7 @@
     padding-left: 16px;
     color: white;
 
+}
     &__email-input:focus {
     outline: none;
     border: 1px solid var(--main-color);
@@ -62,8 +63,6 @@
     
 }
 
-
-
 .join-us__header {
     font-weight: 700;
     font-size: 14px;
@@ -73,7 +72,6 @@
     color: #FFFFFF;
     margin-bottom: 5px;
     margin-top: 64px;
-}
 }
 
 .newsletter {
