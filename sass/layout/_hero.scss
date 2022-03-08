@@ -1,30 +1,30 @@
 .hero {
-    background-image: 
-    linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)),
-        url("../images/hero-img.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-color: rgba(47, 48, 58, 1);
-    max-width: 1600px;
-    margin: 0 auto;
-    height: 37.5rem;
-    background-position: center center;
-    display: flex;
-    align-items: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/M-Hero-480x400.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(47, 48, 58, 1);
+  max-width: 480px;
+  margin: 0 auto;
+  max-height: 400px;
+  background-position: center center;
+  display: flex;
+  align-items: center;
 }
 
 .main-header {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.363;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    width: 696px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  font-size: 26px;
+  line-height: 1.616;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  max-width: 365px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -1,41 +1,83 @@
-.our-team__figure {
-    width: 270px;
-    margin-left: 0px;
-    display: inline-block;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    background-color: #FFFFFF;
-    margin-right: 30px;
-}
+// .our-team__figure {
+//     width: 270px;
+//     margin-left: 0px;
+//     display: inline-block;
+//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+//     border-radius: 0px 0px 4px 4px;
+//     background-color: #FFFFFF;
+//     margin-right: 30px;
+// }
 
+// .our-team__list {
+//     display: flex;
+// }
 
-.our-team__list {
-    display: flex;
+// .our-team {
+//     background-color: rgba(245, 244, 250, 1);
+//     text-align: center;
+
+// }
+
+// .name {
+//     display: inline-block;
+//     align-items: center;
+//     margin-top: 30px;
+//     font-weight: 500;
+//     font-size: 16px;
+//     line-height: 1.187px;
+//     letter-spacing: 0.03em;
+// }
+
+// .job-position {
+//     font-weight: 400;
+//     font-size: 16px;
+//     line-height: 1.187;
+//     letter-spacing: 0.03em;
+//     color: rgba(117, 117, 117, 1);
+//     margin-bottom: 16px;
+//     margin-top: 10px;
+// }
+
+.second-header {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.179;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .our-team {
-    background-color: rgba(245, 244, 250, 1);
-    text-align: center;
-    
+  background-color: #f5f4fa;
 }
 
 .name {
-    display: inline-block;
-    align-items: center;
-    margin-top: 30px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.187px;
-    letter-spacing: 0.03em;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.187px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top: 30px;
+  text-align: center;
 }
 
-
 .job-position {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.187;
-    letter-spacing: 0.03em;
-    color: rgba(117, 117, 117, 1);
-    margin-bottom: 16px;
-    margin-top: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.our-team__img {
+  width: 100%;
+}
+
+.our-team__figure {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+  margin: 30px 0;
 }
