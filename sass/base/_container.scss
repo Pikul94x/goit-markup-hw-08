@@ -1,5 +1,9 @@
 .container {
-    padding: 0 15px;
-    align-items: center;
-    margin: 0 auto;
+  padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+
+  @media (min-width: 1200px) {
+    width: 1200px;
+  }
 }

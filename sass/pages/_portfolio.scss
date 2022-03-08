@@ -114,3 +114,24 @@
     border-radius: 4px;
   }
 }
+
+@media (min-width: 768px) {
+  .button-list__link {
+    justify-content: center;
+  }
+
+  .apps__list {
+    margin: 0 -15px;
+  }
+
+  .apps__item {
+    padding: 0 15px;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .apps__item {
+    width: 33.333%;
+  }
+}

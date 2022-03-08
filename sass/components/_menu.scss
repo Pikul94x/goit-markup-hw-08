@@ -1,0 +1,16 @@
+/* Style the hamburger menu */
+.hamburger-menu {
+  color: inherit;
+  text-decoration: none;
+
+  &--close {
+    position: absolute;
+    right: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hamburger-menu {
+    display: none;
+  }
+}

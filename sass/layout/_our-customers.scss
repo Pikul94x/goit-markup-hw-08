@@ -32,37 +32,42 @@
 // }
 // }
 
-
-
 .our-customers__link {
-    display: flex;
-    fill: #afb1b8;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    // width: 170px;
-    height: 92px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  // width: 170px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
 }
 
-
 .our-customers__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+  margin: 0 -15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .our-customers__item {
-    padding-bottom: 30px;
-    flex-grow: 1;
-    
+  padding: 0 15px 30px;
+  flex-grow: 1;
 }
 
 .our-customers__icon {
-    padding: 15px;
+  padding: 15px;
 }
 
-.our-customers__item:nth-child(2n + 1) {
-    padding-right: 30px;
+@media (min-width: 768px) {
+  .our-customers__item {
+    width: 33%;
+    flex-grow: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .our-customers__list {
+    flex-wrap: nowrap;
+  }
 }

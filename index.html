@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.min.css">
     
 </head>
@@ -19,41 +20,49 @@
 <body>
   <header class="header">
     <div class="container conatiner__header">
-    <nav class="navigation">
-      <a class="logo" href="index.html"><strong><span class="logo__accent--dark">Web</span>Studio</strong></a>
-    
-      <ul class="navigation__list list">
-        <li class="navigation__item">
-          <a class="navigation__link current link"  href="index.html">Agencja</a>
-        </li>
-        <li class="navigation__item">
-          <a class="navigation__link link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="navigation__item">
-          <a class="navigation__link link" href="#">Kontakt</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- <address class="address">
-      <ul class="address__list list">
-      <li class="address__item">
-        <a class="address__email link" href="mailto:info@devstudio.com">
-      <svg class="envelope-icon" width="16" height="12">
-        <use href="images/sprite.svg#icon-envelope"></use>
-      </svg>info@devstudio.com
+      <nav class="navigation">
+        <a class="logo" href="index.html"><strong><span class="logo__accent--dark">Web</span>Studio</strong></a>
+      
+        <div class="navigation__menu">
+          <a href="javascript:void(0);" class="hamburger-menu hamburger-menu--close icon" onclick="myFunction()">
+            X
+          </a>
+          <ul class="navigation__list list">
+            <li class="navigation__item">
+              <a class="navigation__link current link"  href="index.html">Agencja</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link link" href="#">Kontakt</a>
+            </li>
+          </ul>
+          <address class="address">
+            <ul class="address__list list">
+              <li class="address__item">
+                <a class="address__email link" href="mailto:info@devstudio.com">
+                  <svg class="address__icon envelope-icon" width="16" height="12">
+                    <use href="images/sprite.svg#icon-envelope"></use>
+                  </svg>info@devstudio.com
+                </a>
+              </li>
+              <li class="address__item">
+                <a class="address__phone-number link" href="tel:+48111111111">
+                  <svg class="address__icon icon-smartphone" width="10" height="16">
+                    <use href="images/sprite.svg#icon-smartphone"></use>
+                  </svg>+48 111 111 111
+          
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </nav>
+      <a href="javascript:void(0);" class="hamburger-menu icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
       </a>
-      </li>
-      <li class="address__item">
-        <a class="address__phone-number link" href="tel:+48111111111">
-          <svg class="icon-smartphone" width="10" height="16">
-            <use href="images/sprite.svg#icon-smartphone"></use>
-          </svg>+48 111 111 111
-
-        </a>
-        </li>
-      </ul>
-  </address> -->
-  </div>
+    </div>
   </header>
   <main>
     <section class="hero section">
@@ -116,7 +125,7 @@
       </ul>
       </div>
     </section>
-    <!-- <section class="about section">
+    <section class="about section">
       <div class="container">
       <h2 class="second-header">Czym się zajmujemy</h2>
       <ul class="about__list list">
@@ -143,7 +152,7 @@
         </li>
       </ul>
       </div>
-    </section> -->
+    </section>
 
   
     <section class="our-team section">
@@ -416,7 +425,7 @@
       </div>
     </div>  
   </footer>
-  <!-- <div class="backdrop is-hidden" data-modal>
+  <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button class="close-bnt" data-modal-close>X</button>
       <h2 class="modal__form-header">Zostaw swoje dane w formularzu poniżej</h2>
@@ -463,7 +472,17 @@
         <button class="btn btn__send" type="submit">Wyślij</button>
       </form>
     </div>
-  </div> -->
+  </div>
   <script src="./js/modal.js"></script>
+  <script>
+    function myFunction() {
+      var x = document.querySelector(".navigation__menu");
+      if (x.style.display === "flex") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "flex";
+      }
+    }
+  </script>
 </body>
 </html>
