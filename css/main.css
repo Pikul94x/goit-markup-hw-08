@@ -541,6 +541,42 @@ img {
   margin-right: auto;
 }
 
+@media (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/T-Hero-768x400.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #2f303a;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/D-Hero-1600x600.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #2f303a;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+    max-width: 696px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .attributes__icon-container {
   display: flex;
   justify-content: center;
