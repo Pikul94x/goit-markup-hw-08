@@ -574,6 +574,7 @@ img {
     background-position: center center;
     background-size: cover;
     background-color: #2f303a;
+    height: 400px;
   }
 }
 
@@ -584,6 +585,7 @@ img {
     background-position: center center;
     background-size: cover;
     background-color: #2f303a;
+    height: 600px;
   }
 }
 
